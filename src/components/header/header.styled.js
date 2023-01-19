@@ -39,6 +39,8 @@ export const ButtonAdd = styled(Button)`
   color: #ffffff;
   text-decoration: none;
   & > .plus {
+    width: 32px;
+    height: 32px;
     margin-right: 16px;
   }
 `;

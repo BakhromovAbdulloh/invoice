@@ -1,4 +1,4 @@
-import { LogoWrapperEl } from "./logoWrapper,styles";
+import { LogoImage, LogoWrapperEl } from "./logo-wrapper.styles";
 import moon from "../../assets/img/Moon.svg";
 import chelovek from "../../assets/img/Oval.svg";
 export const LogoWrapper = () => {
@@ -6,7 +6,7 @@ export const LogoWrapper = () => {
     <LogoWrapperEl>
       <img src={moon} alt="moon" />
 
-      <img className="logo" src={chelovek} alt="logo" />
+      <LogoImage src={chelovek} alt="logo" />
     </LogoWrapperEl>
   );
 };

@@ -1,5 +1,4 @@
-import { Header } from "./components/header/header";
-import { LogoWrapper } from "./components/logoWrapper/logoWrapper";
+import { Header, LogoWrapper } from "./components";
 
 function App() {
   return (
