@@ -1,6 +1,6 @@
 import plus from "../../assets/img/plus.svg";
 import { Container } from "../container/container";
-import { ButtonAdd, Text, Title, Wrapper } from "./header.styles";
+import { ButtonAdd, Text, Title, Wrapper } from "./header.styled";
 
 export const Header = () => {
   return (

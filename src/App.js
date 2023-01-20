@@ -2,10 +2,10 @@ import { Header, LogoWrapper } from "./components";
 
 function App() {
   return (
-    <>
+    <main>
       <LogoWrapper />
       <Header />
-    </>
+    </main>
   );
 }
 
