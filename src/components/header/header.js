@@ -1,10 +1,10 @@
 import plus from "../../assets/img/plus.svg";
 import { Container } from "../container/container";
-import { ButtonAdd, Text, Title, Wrapper } from "./header.styled";
+import { ButtonAdd, HeaderEl, Text, Title, Wrapper } from "./header.styled";
 
 export const Header = () => {
   return (
-    <header>
+    <HeaderEl>
       <Container>
         <Wrapper>
           <div>
@@ -26,6 +26,6 @@ export const Header = () => {
           </ButtonAdd>
         </Wrapper>
       </Container>
-    </header>
+    </HeaderEl>
   );
 };

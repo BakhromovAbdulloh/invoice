@@ -44,3 +44,8 @@ export const ButtonAdd = styled(Button)`
     margin-right: 16px;
   }
 `;
+
+export const HeaderEl = styled.header`
+  margin-top: 20px;
+  margin-bottom: 65px;
+`;
